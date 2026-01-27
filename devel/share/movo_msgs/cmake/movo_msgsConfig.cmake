@@ -1,0 +1,1 @@
+/home/krish/catkin_ws/devel/.private/movo_msgs/share/movo_msgs/cmake/movo_msgsConfig.cmake

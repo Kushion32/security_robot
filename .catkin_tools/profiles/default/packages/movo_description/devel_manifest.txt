@@ -1,0 +1,4 @@
+kinova-movo/movo_common/movo_description
+/home/krish/catkin_ws/devel/.private/movo_description/share/movo_description/cmake/movo_descriptionConfig.cmake /home/krish/catkin_ws/devel/share/movo_description/cmake/movo_descriptionConfig.cmake
+/home/krish/catkin_ws/devel/.private/movo_description/share/movo_description/cmake/movo_descriptionConfig-version.cmake /home/krish/catkin_ws/devel/share/movo_description/cmake/movo_descriptionConfig-version.cmake
+/home/krish/catkin_ws/devel/.private/movo_description/lib/pkgconfig/movo_description.pc /home/krish/catkin_ws/devel/lib/pkgconfig/movo_description.pc

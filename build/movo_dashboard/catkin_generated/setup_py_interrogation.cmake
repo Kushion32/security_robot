@@ -1,0 +1,7 @@
+set(movo_dashboard_SETUP_PY_SETUP_MODULE "distutils.core")
+set(movo_dashboard_SETUP_PY_VERSION "1.0.0")
+set(movo_dashboard_SETUP_PY_SCRIPTS "")
+set(movo_dashboard_SETUP_PY_PACKAGES "movo_dashboard")
+set(movo_dashboard_SETUP_PY_PACKAGE_DIRS "src/movo_dashboard")
+set(movo_dashboard_SETUP_PY_MODULES "")
+set(movo_dashboard_SETUP_PY_MODULE_DIRS "")

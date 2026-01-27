@@ -1,0 +1,1 @@
+/home/krish/catkin_ws/devel/.private/movo_viz/share/movo_viz/cmake/movo_vizConfig-version.cmake

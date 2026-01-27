@@ -1,0 +1,1 @@
+/home/krish/catkin_ws/devel/.private/movo_msgs/share/roseus/ros/movo_msgs/msg/Dynamics.l

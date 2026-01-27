@@ -1,0 +1,5 @@
+kinova-movo/movo_robot/movo_upstart
+/home/krish/catkin_ws/devel/.private/movo_upstart/share/movo_upstart/cmake/movo_upstartConfig-version.cmake /home/krish/catkin_ws/devel/share/movo_upstart/cmake/movo_upstartConfig-version.cmake
+/home/krish/catkin_ws/devel/.private/movo_upstart/share/movo_upstart/cmake/movo_upstartConfig.cmake /home/krish/catkin_ws/devel/share/movo_upstart/cmake/movo_upstartConfig.cmake
+/home/krish/catkin_ws/devel/.private/movo_upstart/lib/python3/dist-packages/movo_upstart/__init__.py /home/krish/catkin_ws/devel/lib/python3/dist-packages/movo_upstart/__init__.py
+/home/krish/catkin_ws/devel/.private/movo_upstart/lib/pkgconfig/movo_upstart.pc /home/krish/catkin_ws/devel/lib/pkgconfig/movo_upstart.pc

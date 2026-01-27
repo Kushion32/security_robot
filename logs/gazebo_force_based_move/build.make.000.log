@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target gazebo_ros_force_based_move[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/gazebo_ros_force_based_move.dir/src/gazebo_ros_force_based_move.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/krish/catkin_ws/devel/.private/gazebo_force_based_move/lib/libgazebo_ros_force_based_move.so[0m
+[100%] Built target gazebo_ros_force_based_move

@@ -1,0 +1,1 @@
+/home/krish/catkin_ws/devel/.private/movo_moveit_config/share/movo_moveit_config/cmake/movo_moveit_configConfig.cmake

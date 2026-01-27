@@ -1,0 +1,4 @@
+kinova-movo/movo_simulation/movo_gazebo_plugins/roboticsgroup_gazebo_plugins
+/home/krish/catkin_ws/devel/.private/roboticsgroup_gazebo_plugins/share/roboticsgroup_gazebo_plugins/cmake/roboticsgroup_gazebo_pluginsConfig.cmake /home/krish/catkin_ws/devel/share/roboticsgroup_gazebo_plugins/cmake/roboticsgroup_gazebo_pluginsConfig.cmake
+/home/krish/catkin_ws/devel/.private/roboticsgroup_gazebo_plugins/share/roboticsgroup_gazebo_plugins/cmake/roboticsgroup_gazebo_pluginsConfig-version.cmake /home/krish/catkin_ws/devel/share/roboticsgroup_gazebo_plugins/cmake/roboticsgroup_gazebo_pluginsConfig-version.cmake
+/home/krish/catkin_ws/devel/.private/roboticsgroup_gazebo_plugins/lib/pkgconfig/roboticsgroup_gazebo_plugins.pc /home/krish/catkin_ws/devel/lib/pkgconfig/roboticsgroup_gazebo_plugins.pc

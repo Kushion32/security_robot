@@ -1,0 +1,1 @@
+kinova-movo/movo_simulation/movo_gazebo_plugins/movo_gazebo_plugins

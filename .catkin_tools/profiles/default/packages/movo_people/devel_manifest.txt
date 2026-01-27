@@ -1,0 +1,4 @@
+kinova-movo/movo_people
+/home/krish/catkin_ws/devel/.private/movo_people/share/movo_people/cmake/movo_peopleConfig-version.cmake /home/krish/catkin_ws/devel/share/movo_people/cmake/movo_peopleConfig-version.cmake
+/home/krish/catkin_ws/devel/.private/movo_people/share/movo_people/cmake/movo_peopleConfig.cmake /home/krish/catkin_ws/devel/share/movo_people/cmake/movo_peopleConfig.cmake
+/home/krish/catkin_ws/devel/.private/movo_people/lib/pkgconfig/movo_people.pc /home/krish/catkin_ws/devel/lib/pkgconfig/movo_people.pc

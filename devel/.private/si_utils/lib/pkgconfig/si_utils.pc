@@ -1,0 +1,8 @@
+prefix=/home/krish/catkin_ws/devel/.private/si_utils
+
+Name: si_utils
+Description: Description of si_utils
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

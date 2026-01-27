@@ -1,0 +1,1 @@
+/home/krish/catkin_ws/devel/.private/movo_bringup/share/movo_bringup/cmake/movo_bringupConfig.cmake

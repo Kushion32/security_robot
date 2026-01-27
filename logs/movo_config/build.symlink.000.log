@@ -1,0 +1,4 @@
+Symlinking /home/krish/catkin_ws/devel/etc/catkin/profile.d/50.movo_config.bash
+Symlinking /home/krish/catkin_ws/devel/share/movo_config/cmake/movo_configConfig.cmake
+Symlinking /home/krish/catkin_ws/devel/share/movo_config/cmake/movo_configConfig-version.cmake
+Symlinking /home/krish/catkin_ws/devel/lib/pkgconfig/movo_config.pc

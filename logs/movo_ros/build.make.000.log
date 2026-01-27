@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target movo_ros_gencfg[0m
+[100%] [34m[1mGenerating dynamic reconfigure files from cfg/movo.cfg: /home/krish/catkin_ws/devel/.private/movo_ros/include/movo_ros/movoConfig.h /home/krish/catkin_ws/devel/.private/movo_ros/lib/python3/dist-packages/movo_ros/cfg/movoConfig.py[0m
+Generating reconfiguration files for movo in movo_ros
+Wrote header file in /home/krish/catkin_ws/devel/.private/movo_ros/include/movo_ros/movoConfig.h
+[100%] Built target movo_ros_gencfg

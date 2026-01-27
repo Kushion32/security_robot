@@ -1,0 +1,1 @@
+/home/krish/catkin_ws/devel/.private/movo_viz/lib/pkgconfig/movo_viz.pc

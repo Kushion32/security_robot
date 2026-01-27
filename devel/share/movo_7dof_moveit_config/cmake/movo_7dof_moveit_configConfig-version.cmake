@@ -1,0 +1,1 @@
+/home/krish/catkin_ws/devel/.private/movo_7dof_moveit_config/share/movo_7dof_moveit_config/cmake/movo_7dof_moveit_configConfig-version.cmake

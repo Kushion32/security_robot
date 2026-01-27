@@ -1,0 +1,1 @@
+/home/krish/catkin_ws/devel/.private/movo_description/share/movo_description/cmake/movo_descriptionConfig-version.cmake

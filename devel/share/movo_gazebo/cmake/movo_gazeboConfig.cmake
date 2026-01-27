@@ -1,0 +1,1 @@
+/home/krish/catkin_ws/devel/.private/movo_gazebo/share/movo_gazebo/cmake/movo_gazeboConfig.cmake

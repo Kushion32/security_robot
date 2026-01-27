@@ -1,0 +1,4 @@
+kinova-movo/movo_desktop/movo_viz
+/home/krish/catkin_ws/devel/.private/movo_viz/share/movo_viz/cmake/movo_vizConfig.cmake /home/krish/catkin_ws/devel/share/movo_viz/cmake/movo_vizConfig.cmake
+/home/krish/catkin_ws/devel/.private/movo_viz/share/movo_viz/cmake/movo_vizConfig-version.cmake /home/krish/catkin_ws/devel/share/movo_viz/cmake/movo_vizConfig-version.cmake
+/home/krish/catkin_ws/devel/.private/movo_viz/lib/pkgconfig/movo_viz.pc /home/krish/catkin_ws/devel/lib/pkgconfig/movo_viz.pc

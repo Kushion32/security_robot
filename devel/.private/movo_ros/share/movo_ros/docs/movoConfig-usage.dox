@@ -1,0 +1,30 @@
+\subsubsection usage Usage
+\verbatim
+<node name="movo" pkg="movo_ros" type="movo">
+  <param name="teleop_x_vel_limit_mps" type="double" value="0.5" />
+  <param name="teleop_y_vel_limit_mps" type="double" value="0.5" />
+  <param name="teleop_accel_limit_mps2" type="double" value="0.5" />
+  <param name="teleop_yaw_rate_limit_rps" type="double" value="1.0" />
+  <param name="teleop_yaw_accel_limit_rps2" type="double" value="1.0" />
+  <param name="teleop_arm_vel_limit" type="double" value="0.1" />
+  <param name="teleop_pan_tilt_vel_limit" type="double" value="0.524" />
+  <param name="teleop_linear_actuator_vel_limit" type="double" value="0.05" />
+  <param name="x_vel_limit_mps" type="double" value="1.0" />
+  <param name="y_vel_limit_mps" type="double" value="0.5" />
+  <param name="accel_limit_mps2" type="double" value="0.5" />
+  <param name="decel_limit_mps2" type="double" value="0.5" />
+  <param name="dtz_decel_limit_mps2" type="double" value="1.0" />
+  <param name="yaw_rate_limit_rps" type="double" value="1.0" />
+  <param name="yaw_accel_limit_rps2" type="double" value="1.0" />
+  <param name="wheel_diameter_m" type="double" value="0.1524" />
+  <param name="wheel_base_length_m" type="double" value="0.50173" />
+  <param name="wheel_track_width_m" type="double" value="0.42835" />
+  <param name="gear_ratio" type="double" value="5.0" />
+  <param name="motion_while_charging" type="bool" value="False" />
+  <param name="motion_ctl_input_filter" type="int" value="0" />
+  <param name="linear_actuator_vel_limit_mps" type="double" value="0.1" />
+  <param name="strafe_correction_factor" type="double" value="0.0" />
+  <param name="yaw_correction_factor" type="double" value="0.0" />
+</node>
+\endverbatim
+

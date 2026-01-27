@@ -1,0 +1,1 @@
+/home/krish/catkin_ws/devel/.private/movo_config/share/movo_config/cmake/movo_configConfig.cmake

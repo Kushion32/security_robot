@@ -1,0 +1,1 @@
+/home/krish/catkin_ws/devel/.private/movo_nav/share/movo_nav/cmake/movo_navConfig-version.cmake

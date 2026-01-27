@@ -1,0 +1,4 @@
+kinova-movo/movo_robot/movo_bringup
+/home/krish/catkin_ws/devel/.private/movo_bringup/share/movo_bringup/cmake/movo_bringupConfig.cmake /home/krish/catkin_ws/devel/share/movo_bringup/cmake/movo_bringupConfig.cmake
+/home/krish/catkin_ws/devel/.private/movo_bringup/share/movo_bringup/cmake/movo_bringupConfig-version.cmake /home/krish/catkin_ws/devel/share/movo_bringup/cmake/movo_bringupConfig-version.cmake
+/home/krish/catkin_ws/devel/.private/movo_bringup/lib/pkgconfig/movo_bringup.pc /home/krish/catkin_ws/devel/lib/pkgconfig/movo_bringup.pc

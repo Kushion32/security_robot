@@ -1,0 +1,1 @@
+/home/krish/catkin_ws/devel/.private/movo_ros/include/movo_ros/movoConfig.h

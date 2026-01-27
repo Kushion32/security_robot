@@ -1,0 +1,1 @@
+/home/krish/catkin_ws/devel/.private/movo_people/share/movo_people/cmake/movo_peopleConfig.cmake

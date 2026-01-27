@@ -1,0 +1,1 @@
+/home/krish/catkin_ws/devel/.private/movo_msgs/share/gennodejs/ros/movo_msgs/msg/Battery.js

@@ -1,0 +1,4 @@
+kinova-movo/movo_nav
+/home/krish/catkin_ws/devel/.private/movo_nav/share/movo_nav/cmake/movo_navConfig.cmake /home/krish/catkin_ws/devel/share/movo_nav/cmake/movo_navConfig.cmake
+/home/krish/catkin_ws/devel/.private/movo_nav/share/movo_nav/cmake/movo_navConfig-version.cmake /home/krish/catkin_ws/devel/share/movo_nav/cmake/movo_navConfig-version.cmake
+/home/krish/catkin_ws/devel/.private/movo_nav/lib/pkgconfig/movo_nav.pc /home/krish/catkin_ws/devel/lib/pkgconfig/movo_nav.pc

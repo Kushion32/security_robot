@@ -1,0 +1,8 @@
+prefix=/home/krish/catkin_ws/devel/.private/movo_config
+
+Name: movo_config
+Description: Description of movo_config
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

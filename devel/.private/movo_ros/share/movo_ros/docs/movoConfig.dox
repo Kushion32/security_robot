@@ -1,0 +1,29 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~teleop_x_vel_limit_mps" : \b [double] Maximum velocity in m/s for teleop min: 0.0, default: 0.5, max: 2.0
+- \b "~teleop_y_vel_limit_mps" : \b [double] Maximum velocity in m/s for teleop min: 0.0, default: 0.5, max: 1.0
+- \b "~teleop_accel_limit_mps2" : \b [double] Maximum velocity in m/s for teleop min: 0.05, default: 0.5, max: 2.5
+- \b "~teleop_yaw_rate_limit_rps" : \b [double] Maximum yaw_rate in rad/s for teleop min: 0.0, default: 1.0, max: 3.2
+- \b "~teleop_yaw_accel_limit_rps2" : \b [double] Maximum yaw acceleration in rad/s^2 for teleop min: 0.063, default: 1.0, max: 6.28
+- \b "~teleop_arm_vel_limit" : \b [double] Maximum arm cartesian velocity in cm/s min: 0.0, default: 0.1, max: 0.2
+- \b "~teleop_pan_tilt_vel_limit" : \b [double] Maximum pan_tilt velocity in rad/s for teleop min: 0.0, default: 0.524, max: 0.872
+- \b "~teleop_linear_actuator_vel_limit" : \b [double] Maximum linear actuator velocity limit in m/s for teleop min: 0.0, default: 0.05, max: 0.1
+- \b "~x_vel_limit_mps" : \b [double] Maximum forward velocity in m/s for Movo min: 0.0, default: 1.0, max: 2.0
+- \b "~y_vel_limit_mps" : \b [double] Maximum strafe velocity in m/s for Movo min: 0.0, default: 0.5, max: 1.0
+- \b "~accel_limit_mps2" : \b [double] Maximum acceleration in m/s^2 for Movo min: 0.05, default: 0.5, max: 2.5
+- \b "~decel_limit_mps2" : \b [double] Maximum deceleration in m/s^2 for Movo min: 0.05, default: 0.5, max: 2.5
+- \b "~dtz_decel_limit_mps2" : \b [double] Maximum emergency DTZ deceleration in m/s^2 for Movo min: 0.981, default: 1.0, max: 2.5
+- \b "~yaw_rate_limit_rps" : \b [double] Maximum yaw rate in rad/s for Movo min: 0.0, default: 1.0, max: 3.2
+- \b "~yaw_accel_limit_rps2" : \b [double] Maximum yaw acceleration in rad/s^2 for Movo min: 0.063, default: 1.0, max: 6.28
+- \b "~wheel_diameter_m" : \b [double] wheel diameter in m for Movo min: 0.1324, default: 0.1524, max: 0.1724
+- \b "~wheel_base_length_m" : \b [double] Distance between front and rear contact patch in m for Movo min: 0.48173, default: 0.50173, max: 0.52173
+- \b "~wheel_track_width_m" : \b [double] Distance between left and right contact patch in m for Movo min: 0.40835, default: 0.42835, max: 0.44835
+- \b "~gear_ratio" : \b [double] Input to ouput gear ratio for Movo min: 1.0, default: 5.0, max: 50.0
+- \b "~motion_while_charging" : \b [bool] Allow motion with charger connected min: False, default: False, max: True
+- \b "~motion_ctl_input_filter" : \b [int] Motion Controller Input Filter Cutoff min: -2147483648, default: 0, max: 2147483647
+- \b "~linear_actuator_vel_limit_mps" : \b [double] Maximum velocity for the linear actuator min: 0.0, default: 0.1, max: 0.2
+- \b "~strafe_correction_factor" : \b [double] factor applied to y odometry components to correct for straying angle variation surface to surface min: -0.5, default: 0.0, max: 0.5
+- \b "~yaw_correction_factor" : \b [double] factor applied to yaw odometry components to correct for straying angle variation surface to surface min: -0.5, default: 0.0, max: 0.5
+
