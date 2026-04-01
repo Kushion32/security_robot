@@ -1,18 +1,25 @@
 # Secur-a-Bot MOVO Service Robot Stack
 
+Watch the full demo showing the complete robot stack in action:
+
+<video src="./media/fulldemo.mov" controls="controls" style="max-width: 100%;"></video>
+
+Please find the rest of the demonstration videos and photos sprinkled throughout the features sections below.
+
 The project implemented below includes a full ROS-based software stack for a MOVO service robot, featuring:
+
 - Navigation to waypoints with UI integration
 - Person-following safety behavior using leg detection
 - Automatic head/screen flipping interactions
 - Real-time person counting using YOLOv8 on RealSense camera feed
 - Face authentication for unauthorized user detection
-- Easy map management for SLAM and room labeling 
+- Easy map management for SLAM and room labeling
 - Operator UI (`movo-nav-ui`) and attendee UI (`secure-a-bot-ui/robot-ui`)
-
 
 ## Overview
 
 This repository combines ROS navigation, interaction behaviors, and two web UIs:
+
 - `movo-nav-ui`: operator-facing dashboard for navigation and map tools
 - `secure-a-bot-ui/robot-ui`: attendee-facing touchscreen UI for selecting destinations
 - `src/kinova-movo/movo_nav`: waypoint backend (`goto_points.py`) and nav integration
@@ -21,33 +28,38 @@ This repository combines ROS navigation, interaction behaviors, and two web UIs:
 ## Features
 
 ### 1. Waypoint Navigation
+
 - Send robot to named waypoints from UI or terminal
 - Return robot to home after user confirmation
 - Publishes UI-ready status and arrival topics:
-	- `/ui_nav_ready`
-	- `/ui_waypoints_list`
-	- `/ui_robot_arrived`
+  - `/ui_nav_ready`
+  - `/ui_waypoints_list`
+  - `/ui_robot_arrived`
 
 ### 2. Person-Following Safety
+
 - Uses leg detections and monitor logic to ensure user remains with robot
 - Robot pauses if person is lost and can resume when person returns
 - Key topics:
-	- `/leg_tracker_measurements`
-	- `/movo/person_following_status`
+  - `/leg_tracker_measurements`
+  - `/movo/person_following_status`
 
 ### 3. Head/Screen Interaction
+
 - Auto mode: detect the side a person is standing on from depth, rotate head/tablet side accordingly
 - Supports return-to-front behavior when robot navigation trip is complete and user sends robot back
 - Interfaces:
-	- Service mode: `/movo/flip_to_back_screen`, `/movo/flip_to_front_screen`
-	- Auto mode topics: `/movo/auto_screen_flip/command`, `/movo/auto_screen_flip/state`
+  - Service mode: `/movo/flip_to_back_screen`, `/movo/flip_to_front_screen`
+  - Auto mode topics: `/movo/auto_screen_flip/command`, `/movo/auto_screen_flip/state`
 
 ### 4. Person Counting
+
 - Uses YOLOv8 object detection on RealSense color camera stream
 - Continuously counts number of people in the camera's field of view
 - Publishes count to `/people/count` (std_msgs/Int32)
 
 ### 5. Face Authentication (Unauthorized User Detection)
+
 - Validates faces against authorized profiles using `face_recognition`
 - Identifies whether a detected person is an authorized user or unauthorized
 - Publishes status to `/face_auth/status` (std_msgs/String)
@@ -55,17 +67,20 @@ This repository combines ROS navigation, interaction behaviors, and two web UIs:
 - Authorized face encodings are loaded from a local directory (e.g., `config/known_faces/`) and should be pre-populated with images of authorized users (e.g., `me.jpg`)
 
 ### 6. Map Manager (SLAM & Room Labeling)
+
 - Handles dynamic SLAM map saving and loading during runtime
 - Manages room labels and mapping statuses dynamically
 - Interface: JSON command inputs on `/map_manager/command`
 - Publishes JSON status on `/map_manager/status`
 
 ### 7. Operator UI (MOVO UI)
+
 - ROS-connected operator dashboard
 - Waypoint/nav control and map utilities
 - Path: `movo-nav-ui`
 
 ### 8. Attendee UI (Secure-a-Bot UI)
+
 - Touch-friendly destination selection for attendees
 - Hardcoded destination buttons mapped to waypoint names (e.g. `washroom`, `elevator`, `stairs`)
 - Path: `secure-a-bot-ui/robot-ui`
@@ -124,6 +139,7 @@ source ~/catkin_ws/devel/setup.bash
 ```
 
 Notes:
+
 - Use the interface/IP reachable by the robot network.
 - If running over wired tether, prefer the robot subnet IP (for example `10.66.x.x`) instead of hotspot-only IPs.
 
@@ -289,14 +305,16 @@ export VITE_ROSBRIDGE_URL=ws://<rosbridge_host>:9090
 ## ROS Topics and Commands Used by UIs
 
 ### Subscribed by UI
+
 - `/ui_nav_ready` (`std_msgs/Bool`)
 - `/ui_waypoints_list` (`std_msgs/String`, JSON array)
 - `/ui_robot_arrived` (`std_msgs/String`)
 
 ### Published by UI
+
 - `/ui_navigation_command` (`std_msgs/String`)
-	- `go:<waypoint_name>`
-	- `confirm:<waypoint_name>`
+  - `go:<waypoint_name>`
+  - `confirm:<waypoint_name>`
 
 Example:
 
@@ -310,40 +328,42 @@ rostopic pub -1 /ui_navigation_command std_msgs/String "data: 'confirm:washroom'
 Add your recorded media here.
 
 ### Navigation Demo
-- Video: `[ADD_LINK_OR_EMBED_HERE]`
-- Notes: `[ADD_NOTES]`
+
+- Notes: Navigation testing
 
 ### Person Following + Leg Detection Demo
-- Video: `[ADD_LINK_OR_EMBED_HERE]`
-- Notes: `[ADD_NOTES]`
+
+- Notes: Shows the safety behavior using leg detection
 
 ### Head Turn / Screen Flip Demo
-- Video: `[ADD_LINK_OR_EMBED_HERE]`
-- Notes: `[ADD_NOTES]`
+
+<video src="./media/headmoving.MOV" controls="controls" style="max-width: 100%;"></video>
 
 ### Person Counting Demo
-- Video: `[ADD_LINK_OR_EMBED_HERE]`
-- Notes: `[ADD_NOTES]`
+
+- Notes: Evaluates YOLOv8 counts
 
 ### Face Authentication (Unauthorized User Detection) Demo
-- Video: `[ADD_LINK_OR_EMBED_HERE]`
-- Notes: `[ADD_NOTES]`
+
+<video src="./media/facedetection.mp4" controls="controls" style="max-width: 100%;"></video>
 
 ### Map Manager (Live SLAM & Room Labels) Demo
-- Video: `[ADD_LINK_OR_EMBED_HERE]`
-- Notes: `[ADD_NOTES]`
+
+- Notes: Live SLAM demonstrations
 
 ### Operator UI Demo
-- Video: `[ADD_LINK_OR_EMBED_HERE]`
-- Notes: `[ADD_NOTES]`
+
+![Operator UI](./media/OperatorUI.png)
 
 ### Attendee UI Demo
-- Video: `[ADD_LINK_OR_EMBED_HERE]`
-- Notes: `[ADD_NOTES]`
+
+![User UI](./media/UserUi.png)
+![User UI Map](./media/UserUImap.png)
 
 ## Troubleshooting
 
 ### UI connects but robot does not move
+
 - Check `goto_points.py` is running.
 - Check nav readiness:
 
@@ -358,6 +378,7 @@ rostopic list | grep move_base
 ```
 
 ### Waypoint unknown errors
+
 - Confirm waypoint file contains the exact key name:
 
 ```bash
@@ -371,13 +392,15 @@ rostopic echo /ui_navigation_command
 ```
 
 ### Robot starts at wrong map location (orange AMCL marker off-map)
+
 - In RViz, use `2D Pose Estimate` to set initial pose.
 - Rotate robot slowly in place to converge AMCL.
 
 ### Head does not return to front after attendee confirmation
+
 - Ensure either of these is active:
-	- `screen_flip_node.py` (service path)
-	- `auto_screen_flip_node.py` (topic command path)
+  - `screen_flip_node.py` (service path)
+  - `auto_screen_flip_node.py` (topic command path)
 
 ## Acknowledgements
 

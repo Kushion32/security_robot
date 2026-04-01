@@ -1,0 +1,9 @@
+[submodule "secure-a-bot-ui"]
+	path = secure-a-bot-ui
+	url = https://github.com/dina-o/secure-a-bot-ui
+[submodule "src/eband_local_planner"]
+	path = src/eband_local_planner
+	url = https://github.com/utexas-bwi/eband_local_planner.git
+[submodule "src/kinova-movo"]
+	path = src/kinova-movo
+	url = https://github.com/Kinovarobotics/kinova-movo.git
