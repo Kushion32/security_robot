@@ -158,6 +158,14 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/movo_nav" TYPE FILE FILES "/home/krish/catkin_ws/src/kinova-movo/movo_nav/package.xml")
 endif()
 
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/movo_nav" TYPE PROGRAM FILES "/home/krish/catkin_ws/build/movo_nav/catkin_generated/installspace/goto_points.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/movo_nav" TYPE PROGRAM FILES "/home/krish/catkin_ws/build/movo_nav/catkin_generated/installspace/map_manager.py")
+endif()
+
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/krish/catkin_ws/build/movo_nav/gtest/cmake_install.cmake")

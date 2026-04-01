@@ -1,4 +1,0 @@
-[35m[1mScanning dependencies of target movo_assisted_teleop[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/movo_assisted_teleop.dir/src/movo_assisted_teleop.cpp.o[0m
-[100%] [32m[1mLinking CXX executable /home/krish/catkin_ws/devel/.private/movo_assisted_teleop/lib/movo_assisted_teleop/movo_assisted_teleop[0m
-[100%] Built target movo_assisted_teleop

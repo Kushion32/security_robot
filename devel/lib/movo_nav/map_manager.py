@@ -1,0 +1,1 @@
+/home/krish/catkin_ws/devel/.private/movo_nav/lib/movo_nav/map_manager.py

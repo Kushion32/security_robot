@@ -158,6 +158,22 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/movo_people" TYPE FILE FILES "/home/krish/catkin_ws/src/kinova-movo/movo_people/package.xml")
 endif()
 
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/movo_people" TYPE PROGRAM FILES "/home/krish/catkin_ws/build/movo_people/catkin_generated/installspace/screen_flip_node.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/movo_people" TYPE PROGRAM FILES "/home/krish/catkin_ws/build/movo_people/catkin_generated/installspace/auto_screen_flip_node.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/movo_people" TYPE PROGRAM FILES "/home/krish/catkin_ws/build/movo_people/catkin_generated/installspace/realsense_person_counter.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/movo_people" TYPE PROGRAM FILES "/home/krish/catkin_ws/build/movo_people/catkin_generated/installspace/person_following_monitor.py")
+endif()
+
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/krish/catkin_ws/build/movo_people/gtest/cmake_install.cmake")

@@ -8,6 +8,8 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/krish/catkin_ws/devel/.private/movo_people:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/krish/catkin_ws/devel/.private/movo_people/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/krish/catkin_ws/devel/.private/movo_people/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/krish/catkin_ws/build/movo_people'
 export ROSLISP_PACKAGE_DIRECTORIES="/home/krish/catkin_ws/devel/.private/movo_people/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/krish/catkin_ws/src/kinova-movo/movo_people:$ROS_PACKAGE_PATH"
