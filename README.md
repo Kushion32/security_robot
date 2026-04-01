@@ -1,5 +1,7 @@
 # Secur-a-Bot MOVO Service Robot Stack
 
+![Secur-a-Bot](./media/robot.png)
+
 Watch the full demo showing the complete robot stack in action:
 
 https://github.com/Kushion32/security_robot/raw/master/media/fulldemo.mov
