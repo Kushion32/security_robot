@@ -2,7 +2,7 @@
 
 Watch the full demo showing the complete robot stack in action:
 
-<video src="./media/fulldemo.mov" controls="controls" style="max-width: 100%;"></video>
+https://github.com/Kushion32/security_robot/raw/master/media/fulldemo.mov
 
 Please find the rest of the demonstration videos and photos sprinkled throughout the features sections below.
 
@@ -337,7 +337,7 @@ Add your recorded media here.
 
 ### Head Turn / Screen Flip Demo
 
-<video src="./media/headmoving.MOV" controls="controls" style="max-width: 100%;"></video>
+https://github.com/Kushion32/security_robot/raw/master/media/headmoving.MOV
 
 ### Person Counting Demo
 
@@ -345,7 +345,7 @@ Add your recorded media here.
 
 ### Face Authentication (Unauthorized User Detection) Demo
 
-<video src="./media/facedetection.mp4" controls="controls" style="max-width: 100%;"></video>
+https://github.com/Kushion32/security_robot/raw/master/media/facedetection.mp4
 
 ### Map Manager (Live SLAM & Room Labels) Demo
 
