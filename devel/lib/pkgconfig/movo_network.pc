@@ -1,1 +1,0 @@
-/home/krish/catkin_ws/devel/.private/movo_network/lib/pkgconfig/movo_network.pc

@@ -1,1 +1,0 @@
-/home/krish/catkin_ws/devel/.private/movo_msgs/include/movo_msgs/PanTiltActuatorFdbk.h

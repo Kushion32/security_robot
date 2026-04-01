@@ -1,8 +1,0 @@
-prefix=/home/krish/catkin_ws/devel/.private/movo_bringup
-
-Name: movo_bringup
-Description: Description of movo_bringup
-Version: 1.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

@@ -1,7 +1,0 @@
-set(movo_ros_SETUP_PY_SETUP_MODULE "distutils.core")
-set(movo_ros_SETUP_PY_VERSION "1.0.0")
-set(movo_ros_SETUP_PY_SCRIPTS "")
-set(movo_ros_SETUP_PY_PACKAGES "movo;movo_action_clients;movo_gripper_interface;movo_joint_interface;movo_jtas")
-set(movo_ros_SETUP_PY_PACKAGE_DIRS "src/movo;src/movo_action_clients;src/movo_gripper_interface;src/movo_joint_interface;src/movo_jtas")
-set(movo_ros_SETUP_PY_MODULES "")
-set(movo_ros_SETUP_PY_MODULE_DIRS "")

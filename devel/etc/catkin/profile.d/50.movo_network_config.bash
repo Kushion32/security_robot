@@ -1,1 +1,0 @@
-/home/krish/catkin_ws/devel/.private/movo_network/etc/catkin/profile.d/50.movo_network_config.bash

@@ -1,8 +1,0 @@
-prefix=/home/krish/catkin_ws/devel/.private/movo_demos
-
-Name: movo_demos
-Description: Description of movo_demos
-Version: 1.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

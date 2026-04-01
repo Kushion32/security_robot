@@ -1,1 +1,0 @@
-/home/krish/catkin_ws/devel/.private/movo_msgs/share/common-lisp/ros/movo_msgs/msg/_package_GripperCmd.lisp

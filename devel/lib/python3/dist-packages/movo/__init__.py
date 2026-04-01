@@ -1,1 +1,0 @@
-/home/krish/catkin_ws/devel/.private/movo_ros/lib/python3/dist-packages/movo/__init__.py

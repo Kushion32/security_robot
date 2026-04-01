@@ -1,1 +1,0 @@
-/home/krish/catkin_ws/devel/.private/movo_msgs/lib/python3/dist-packages/movo_msgs/msg/_CtlParams.py

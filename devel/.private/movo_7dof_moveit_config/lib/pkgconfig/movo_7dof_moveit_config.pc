@@ -1,8 +1,0 @@
-prefix=/home/krish/catkin_ws/devel/.private/movo_7dof_moveit_config
-
-Name: movo_7dof_moveit_config
-Description: Description of movo_7dof_moveit_config
-Version: 1.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

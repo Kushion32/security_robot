@@ -1,1 +1,0 @@
-/home/krish/catkin_ws/devel/.private/eband_local_planner/lib/pkgconfig/eband_local_planner.pc

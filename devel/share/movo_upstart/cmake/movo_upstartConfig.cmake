@@ -1,1 +1,0 @@
-/home/krish/catkin_ws/devel/.private/movo_upstart/share/movo_upstart/cmake/movo_upstartConfig.cmake

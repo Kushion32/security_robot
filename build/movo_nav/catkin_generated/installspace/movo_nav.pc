@@ -1,8 +1,0 @@
-prefix=/home/krish/catkin_ws/install
-
-Name: movo_nav
-Description: Description of movo_nav
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

@@ -1,1 +1,0 @@
-/home/krish/catkin_ws/devel/.private/movo_people/lib/movo_people/auto_screen_flip_node.py

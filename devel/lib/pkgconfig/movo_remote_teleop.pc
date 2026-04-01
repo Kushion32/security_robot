@@ -1,1 +1,0 @@
-/home/krish/catkin_ws/devel/.private/movo_remote_teleop/lib/pkgconfig/movo_remote_teleop.pc

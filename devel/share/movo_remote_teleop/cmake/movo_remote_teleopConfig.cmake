@@ -1,1 +1,0 @@
-/home/krish/catkin_ws/devel/.private/movo_remote_teleop/share/movo_remote_teleop/cmake/movo_remote_teleopConfig.cmake

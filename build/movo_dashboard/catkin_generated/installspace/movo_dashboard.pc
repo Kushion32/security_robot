@@ -1,8 +1,0 @@
-prefix=/home/krish/catkin_ws/install
-
-Name: movo_dashboard
-Description: Description of movo_dashboard
-Version: 1.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

@@ -1,1 +1,0 @@
-/home/krish/catkin_ws/devel/.private/movo_assisted_teleop/share/movo_assisted_teleop/cmake/movo_assisted_teleopConfig.cmake

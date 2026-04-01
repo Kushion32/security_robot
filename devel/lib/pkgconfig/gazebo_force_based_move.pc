@@ -1,1 +1,0 @@
-/home/krish/catkin_ws/devel/.private/gazebo_force_based_move/lib/pkgconfig/gazebo_force_based_move.pc

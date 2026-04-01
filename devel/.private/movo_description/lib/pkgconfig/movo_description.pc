@@ -1,8 +1,0 @@
-prefix=/home/krish/catkin_ws/devel/.private/movo_description
-
-Name: movo_description
-Description: Description of movo_description
-Version: 1.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

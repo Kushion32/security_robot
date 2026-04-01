@@ -1,1 +1,0 @@
-/home/krish/catkin_ws/devel/.private/movo_dashboard/share/movo_dashboard/cmake/movo_dashboardConfig-version.cmake
